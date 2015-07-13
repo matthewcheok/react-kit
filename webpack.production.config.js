@@ -17,7 +17,7 @@ module.exports = {
       include: path.resolve(__dirname, 'app')
     }, {
       test: /\.scss$/,
-      loader: 'style!css!sass?sourceMap'
+      loader: 'style!css!autoprefixer!sass?sourceMap'
     }]
   }
 };
