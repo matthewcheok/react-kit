@@ -6,10 +6,9 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
-    path.resolve(__dirname, 'app/index.js')
+    path.resolve(__dirname, 'app/index.jsx')
   ],
   output: {
-    port: devport,
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
   },

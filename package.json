@@ -1,11 +1,11 @@
 {
   "name": "react-kit",
   "version": "1.0.0",
-  "description": "Boilerplate for project with React and Webpack",
+  "description": "Boilerplate for project with React and Webpack.",
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build --inline --history-api-fallback",
     "build": "webpack --progress --colors --config webpack.production.config.js",
-    "lint": "eslint app"
+    "lint": "eslint app || true"
   },
   "repository": {
     "type": "git",
